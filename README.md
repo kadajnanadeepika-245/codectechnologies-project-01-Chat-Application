@@ -1,9 +1,6 @@
 💬 Real-Time Chat Application\
 A fully functional real-time chat application built using Java Sockets, JavaFX, and MySQL, enabling users to securely communicate through private or group conversations. Designed with a user-friendly interface and persistent message history, the app delivers a smooth and responsive chatting experience.
 
-🔗 Live Demo
-👉 ()
-
 ✨ Key Highlights
 ✅ Real-Time Messaging: Instant communication using Java Socket programming
 
