@@ -1,73 +1,56 @@
-# Welcome to your Lovable project
+💬 Real-Time Chat Application\
+A fully functional real-time chat application built using Java Sockets, JavaFX, and MySQL, enabling users to securely communicate through private or group conversations. Designed with a user-friendly interface and persistent message history, the app delivers a smooth and responsive chatting experience.
 
-## Project info
+🔗 Live Demo
+👉 ()
 
-**URL**: https://lovable.dev/projects/c65fe2dd-75bc-4cba-8006-c02d50bbd743
+✨ Key Highlights
+✅ Real-Time Messaging: Instant communication using Java Socket programming
 
-## How can I edit this code?
+✅ User Authentication: Login/signup system to ensure secure access
 
-There are several ways of editing your application.
+✅ Private & Group Chat Support: Chat one-on-one or within group conversations
 
-**Use Lovable**
+✅ Persistent Message History: Store and retrieve messages from the database
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c65fe2dd-75bc-4cba-8006-c02d50bbd743) and start prompting.
+✅ Modern UI: Built with JavaFX for a clean, responsive interface
 
-Changes made via Lovable will be committed automatically to this repo.
+🛠️ Tech Stack
+Programming Language: Java
 
-**Use your preferred IDE**
+Frontend: JavaFX (GUI components)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Backend Communication: Java Sockets (Client-Server architecture)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Database: MySQL (for user credentials and chat history)
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+📁 Project Structure
+📦 Chat Application
+├── Client.java         → Client-side logic and UI controller
+├── Server.java         → Server-side logic to handle multiple clients
+├── LoginController.java → Handles user login and registration logic
+├── ChatController.java  → Manages chat UI and messaging logic
+├── DBManager.java       → Handles database connectivity and queries
+├── chat.fxml           → JavaFX layout for chat window
+├── login.fxml          → JavaFX layout for login/signup
+└── database.sql         → SQL script to set up users and messages table
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+💻 How to Use
+1️⃣ Clone the repository or download the project files
+2️⃣ Set up the MySQL database using database.sql
+3️⃣ Open the project in a Java IDE (e.g., IntelliJ, Eclipse)
+4️⃣ Run Server.java to start the server
+5️⃣ Run Client.java to launch the chat UI
+6️⃣ Create an account or log in, and start chatting!
 
-# Step 3: Install the necessary dependencies.
-npm i
+🔮 Future Enhancements
+🔐 Password Encryption: Add hashing for secure password storage
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+📱 Mobile Version: Build Android support using Java/Kotlin
 
-**Edit a file directly in GitHub**
+📁 File Sharing: Enable sending of images, documents, and other media
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🔔 Notifications: Desktop alerts for new messages
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c65fe2dd-75bc-4cba-8006-c02d50bbd743) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🟢 User Presence Status: Show online/offline status of users
